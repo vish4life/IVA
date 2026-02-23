@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langgraph = "*"
+langchain-ollama = "*"
+fastmcp = "*"
+sqlalchemy = "*"
+asyncpg = "*"
+python-multipart = "*"
+edge-tts = "*"
+faster-whisper = "*"
+python-dotenv = "*"
+websockets = "*"
+langchain-mcp-adapters = "*"
+sentence-transformers = "*"
+fastapi = {extras = ["all"], version = "*"}
+uvicorn = {extras = ["standard"], version = "*"}
+pgvector = "*"
+psycopg2-binary = "*"
+pydantic-settings = "*"
+numpy = "<2"
+passlib = "*"
+python-jose = "*"
+cryptography = "*"
+bcrypt = "==3.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
