@@ -8,6 +8,10 @@ I have successfully built a voice-enabled, multi-agent banking assistant for the
 - **Multi-Agent Orchestration**: A supervisor agent routes requests to specialized agents for onboarding, banking, and financial advice.
 - **Email Lookups**: The agent can now automatically retrieve all accounts associated with a customer's registered email.
 - **MCP Integration**: The backend uses FastMCP to expose secure banking tools (balance check, transfers, applications) to the LLM.
+
+## Snapshot
+<image src="https://github.com/vish4life/IVA/blob/f4b4e1d21dcef9a93456fc3e611105c033536b34/Screenshot%202026-02-28%20at%2009.57.43.png"/>
+
 ## Technical Architecture
 ```mermaid
 graph TD
